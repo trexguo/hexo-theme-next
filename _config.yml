@@ -230,8 +230,8 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
+  wordcount: true
+  min2read: true
   totalcount: false
   separated_meta: true
 
@@ -361,7 +361,7 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname:
+  shortname: rex
   count: true
 
 # Hypercomments
@@ -531,9 +531,9 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: 8zynD7C52eQsVV1emzvJHkEE-gzGzoHsz
+  app_key: KLe5cIiWV6JIBJtUHj6BlXRr
 
 # Another tool to show number of visitors to each article.
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
